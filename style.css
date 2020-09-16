@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  } 
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background: rgba(211, 211, 211, 0.589); 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(199, 199, 199);
+}
+
+
+#LandingPage{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1572188863110-46d457c9234d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+nav{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    padding: 10px 50px;
+    display: flex;
+}
+#links{
+    width: 30%;
+    height: 100%;
+    margin-left: 70%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+#links a{
+    color:#fff;
+    font-size: 14px;
+    font-weight:500;
+    text-decoration: none;
+}
+
+#searchbar{
+    height: 10%;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 45%;
+    left: 13%;
+    display: flex;
+}
+
+#searchbar>img{
+    margin: 18px 45px;
+}
+
+#searchbar>input{
+    width: 85%;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.705);
+}
+#overlay>h1{
+    text-align: center;
+    position: relative;
+    top: 48%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#trending{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#trending>h1{
+    text-align: center;
+    color:#fff;
+    font-weight: 280;
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding-top: 3%;
+}
